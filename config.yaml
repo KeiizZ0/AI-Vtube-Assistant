@@ -1,0 +1,20 @@
+google_ai:
+  api_key: "AIzaSyAx9efzWsuscNYdDliHmbcGVNBpE4Hwq3s"  # Ganti dengan API key dari Google Cloud
+
+  # AIzaSyAx9efzWsuscNYdDliHmbcGVNBpE4Hwq3s
+
+
+voicevox:
+  voice_id: 29  # Ganti dengan ID suara favoritmu dari VoiceVox
+  base_url: "http://127.0.0.1:50021"
+  use_gpu: true
+  low_priority_mode: true
+  # Menjalankan VoiceVox dengan GPU (CUDA)
+
+whisper:
+  model: "base"  # Pilih model dari Whisper (small, medium, large)
+  device: "cuda"  # Gunakan GPU jika tersedia
+
+logging:
+  log_file: "logs/conversation.log"  # File log untuk percakapan AI
+  level: "INFO"  # Level logging

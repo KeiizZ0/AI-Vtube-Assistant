@@ -1,5 +1,5 @@
 google_ai:
-  api_key: "AIzaSyAx9efzWsuscNYdDliHmbcGVNBpE4Hwq3s"  # Ganti dengan API key dari Google Cloud
+  api_key: "API_KEY"  # Ganti dengan API key dari Google Cloud
 
   # AIzaSyAx9efzWsuscNYdDliHmbcGVNBpE4Hwq3s
 
